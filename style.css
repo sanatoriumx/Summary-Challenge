@@ -1,0 +1,175 @@
+
+main.content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+div.result{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 270px;
+	max-height:500px;
+	background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	border-radius: 20px;
+	box-sizing: border-box;
+	}
+
+p.your-result{
+	font-size: 18px;
+	color: hsla(221, 100%, 96%, 80%);
+}
+
+.score{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	/* precisei adicionar toda essa parte do display de novo pra centralizar o 76 no circulo, não adianta ele só ser descendente do div */
+	display: flex;     
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+number.number{
+	font-weight: 800;
+	font-size: 60px;
+	color: hsl(0, 0%, 100%);
+	margin:0;
+}
+
+p.total-of{
+	font-size: 18px;
+	color: hsla(221, 100%, 96%, 65%);
+	margin: 0;
+	padding: 0 20px;
+}
+
+p.commentary{
+	font-size: 30px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+}
+
+p.text{
+	font-size: 18px;
+	font-weight: 500;
+	color: hsla(221, 100%, 96%, 65%);
+	padding: 0 30px 20px 30px;
+}
+
+div.summary{
+	display: flex;
+    flex-direction: column;
+	width: 270px;
+	max-height:500px;
+	font-weight: 700;
+	background-color: hsl(0, 0%, 100%);
+	box-shadow: 15px 15px 20px hsl(221, 100%, 96%, 80%);
+	border-radius: 20px;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+p.title{
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+    text-align: left;
+    padding-left: 15px;
+}
+
+section.reaction{
+	display: flex;
+    flex-direction: row;
+    text-aling: center;
+	width: 225px;
+	height:50px;
+	background-color: hsla(0, 100%, 67%, 10%);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+section.memory{
+    display: flex;
+    flex-direction: row;
+	width: 225px;
+	height:50px;
+	background-color: hsla(39, 100%, 56%, 10%);
+	border-radius: 10px;
+	margin-bottom:20px;
+	box-sizing: border-box;
+}
+
+section.verbal{
+	display: flex;
+    flex-direction: row;
+	width: 225px;
+	height:50px;
+	background-color: hsla(166, 100%, 37%, 10%);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+section.visual{
+	display: flex;
+    flex-direction: row;
+	width: 225px;
+	height:50px;
+	background-color: hsla(234, 85%, 45%, 10%);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+span.your-score{
+	font-weight: 700;
+	color: hsl(224, 30%, 27%);
+	padding-left: 50px;
+}
+
+span.total{
+	color: hsla(224, 30%, 27%, 65%);
+}
+
+.summary img{
+	padding: 0 10px;
+}
+
+p.reaction{
+	color: hsl(0, 100%, 67%);
+}
+
+p.memory{
+	color:hsl(39, 100%, 56%);
+}
+
+p.verbal{
+	color: hsl(166, 100%, 37%);
+}
+
+p.visual{
+	color: hsl(234, 85%, 45%);
+}
+
+.button-continue{
+	width: 225px;
+	height:50px;
+	border-radius: 30px;
+	font-size: 18px;
+	font-weight: 700;
+	color: hsl(221, 100%, 96%);
+	background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+	border: 0;
+	cursor: pointer;
+}
+
